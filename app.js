@@ -131,7 +131,7 @@ else if(command === 'get'){
 	var fetchedAccount = getAccount(argv.name, argv.masterPassword);
 
 	if(typeof fetchedAccount === 'undefined'){
-	console.log('Account not found');
+	console.log('Account not found!');
 	}
 	else {
 		console.log('Account found');
